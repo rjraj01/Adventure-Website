@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  /* background: linear-gradient(120deg, #d2f7b4, #c9eef7); */
+  background: url("../star.jpg") no-repeat center;
+  background-size: cover;
+}
+header {
+  background-color: rgba(0, 0, 0, 0.452);
+  width: 100%;
+  height: 70px;
+}
+.logo {
+  position: relative;
+  color: rgba(0, 0, 0, 0.904);
+  padding: 20px;
+  top: 18px;
+  left: 30px;
+  font-size: 2em;
+  font-weight: bold;
+  background: transparent;
+  cursor: pointer;
+}
+header ul {
+  float: right;
+  margin-right: 30px;
+}
+header ul li {
+  display: inline-block;
+  margin-top: 11px;
+  margin-left: 30px;
+  font-size: 20px;
+  border-radius: 20px;
+  padding: 15px 22px;
+  background: transparent;
+}
+header li h3 {
+  color: black;
+}
+header li :hover {
+  color: rgb(255, 255, 255);
+  letter-spacing: 1px;
+  transition: 0.5s;
+}
+header a {
+  text-decoration: none;
+}
+.container {
+  position: absolute;
+  margin-top: 20px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 500px;
+  height: 250px;
+  
+  background: linear-gradient(135deg, rgba(49, 24, 131, 0.9) 0%, rgba(72, 56, 149, 0.8) 100%);
+  color: #fff;
+  border-radius: 30px;
+}
+
+.container h2 {
+  font-weight: bold;
+  text-align: center;
+  margin: 10px;
+}
+.container form label {
+  margin-left: 50px;
+  font-size: 20px;
+}
+.container form input {
+  float: right;
+  margin-right: 50px;
+  margin-left: 35px;
+  padding-top: 6px;
+  border-radius: 5px;
+
+  outline: none;
+  border: 1px solid #ccc;
+}
+.container form button {
+  margin-left: 160px;
+  padding: 6px 18px;
+  font-size: 14px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+
+  outline: none;
+  border: none;
+  background: hotpink;
+  transition: all 0.25s ease-in;
+}
+
+.container form button:hover{
+  background: rgb(255, 12, 134);
+}
+
+
+.container .forget {
+  margin-left: 140px;
+}
+.container label a {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+}
